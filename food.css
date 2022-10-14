@@ -1,0 +1,217 @@
+  /*  All Navigation bar */
+  .container {
+    display: flex;
+
+}
+
+.container::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+/* Navigation bar */
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.navbar ul :hover {
+    background-color: wheat;
+    color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Navigation bar logo */
+.navlogo img {
+    width: 100px;
+}
+
+/* Hadding and paragraph */
+.inhome {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 10px auto;
+}
+
+#had {
+    margin: 5px auto;
+    width: max-content;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: -2rem;
+}
+
+.inhome p {
+    text-align: center;
+    font-size: -1rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.container::before {
+
+    text-align: center;
+    position: absolute;
+    content: "";
+    background: url('Img/pizza-gd488cee82_1920.jpg') center center/cover;
+    width: 100%;
+    height: 55%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.inhome::after {
+    content: 'Button';
+    text-align: center;
+    background-color: wheat;
+    color: rgb(124, 124, 131);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2px auto;
+}
+
+.inhome::after :hover {
+    background-color: blueviolet;
+}
+
+/* Middle paragraph design */
+.mid {
+    margin-top: 80px;
+    height: max-content;
+    width: max-content;
+    margin-left: 45%;
+    font-size: 1.5rem;
+}
+
+/* This line for table*/
+.table {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.alltable {
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+#first {
+    border: 2px solid rgb(192, 76, 76);
+    width: 30%;
+    height: 300px;
+}
+
+#middle {
+    border: 2px solid rgb(192, 76, 76);
+    width: 30%;
+    height: 300px;
+}
+
+#last {
+    border: 2px solid rgb(192, 76, 76);
+    width: 30%;
+    height: 300px;
+}
+
+/*Fill in boxes*/
+#pizza {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+#breakfast {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+#delevery {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+
+.table p {
+    text-align: center;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    
+}
+#h1{
+    margin-top: 12px;
+    margin-left: 45%;
+}
+.client{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+}
+.clientlogo{
+    width: 100px;
+    height: 100px;
+}
+.bottom::before{
+    content: "";
+    position: absolute;
+    background: url('Img/strawberry-ice-cream-g3e28ce30d_1920.jpg') center center/cover;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.contact{
+    
+    height: 400px;
+    width: 100%;
+}
+#contacth1{
+    margin-left: 45%;
+    border: 0px solid rgb(102, 102, 189);
+}
+.conform{
+    display: flex;
+    border: 0px solid rgb(102, 102, 189);
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+.contact::before{
+    content: "";
+    background:url('Img/299543773.jpg') center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    opacity: 0.8;
+}
