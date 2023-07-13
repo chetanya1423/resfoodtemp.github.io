@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project of Food Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" media="screen and (max-width: 1274px )" href="phone.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 320px )" href="phone1.css"> -->
+</head>
+<style>
+    @media (max-width:1268px) {
+        .container::before {
+
+            text-align: center;
+            position: absolute;
+            content: "";
+            background: url('Img/pizza-gd488cee82_1920.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 1274px;
+            height: 350px;
+            z-index: -1;
+            opacity: 0.9;
+        }
+
+        .home {}
+
+        .inhome {
+            display: flex;
+            flex-direction: column;
+            width: 595px;
+            margin: 12px auto;
+        }
+
+        .mid {
+            font-size: 1.5rem;
+            margin: 0px auto;
+            width: 13rem;
+        }
+
+        .table {
+            height: 372px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin: 0px auto;
+            justify-content: space-between;
+        }
+
+        .bottom1 {
+    width: 10rem;
+    margin: 14px auto;
+}
+
+        #h1 {
+            margin-top: -46px;
+            font-size: 29px;
+            margin: -16px auto;
+        }
+
+        .bottom::before {
+            content: "";
+            position: absolute;
+            background: url('Img/strawberry-ice-cream-g3e28ce30d_1920.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            height: 260px;
+            margin-top: 40px;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .con {
+            width: 146px;
+            margin: 0px auto;
+        }
+
+    }
+
+    @media (max-width:1085px) {
+        .table {
+            height: 66rem;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 0px auto;
+            display: flex;
+        }
+
+        .alltable {
+            border: 2px solid rgb(192, 76, 76);
+            width: 74%;
+            height: 300px;
+            margin: 10px auto;
+        }
+
+        #pizza {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin: 0px auto;
+        }
+
+        .imageall {
+            margin: 10px auto;
+            width: 100px;
+        }
+
+        .breakfast {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin: 0px auto;
+        }
+
+        .delevery {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin: 0px auto;
+        }
+
+        #first {
+            width: 74%;
+        }
+
+        #middle {
+            width: 74%;
+        }
+
+        #last {
+            width: 74%;
+        }
+
+        .bottom::before {
+            content: "";
+            position: absolute;
+            background: url('Img/strawberry-ice-cream-g3e28ce30d_1920.jpg');
+
+            height: 260px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin-top: 40px;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .client {
+            width: 800px;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 57px auto;
+        }
+
+        .bottom {
+            height: 300px;
+            overflow-y: hidden;
+        }
+
+        .client {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: 57px auto;
+        }
+
+        #contacth1 {
+            width: 200px;
+        }
+
+        .con {
+            width: 146px;
+            margin: 0px auto;
+        }
+
+        .contact {
+            overflow-x: hidden;
+        }
+
+        .contact::before {
+            content: "";
+            background: url('Img/299543773.jpg');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 400px;
+            z-index: -1;
+            opacity: 0.8;
+            overflow-y: hidden;
+        }
+
+        .conform {
+            display: flex;
+            flex-direction: column;
+            width: 380px;
+            height: 264px;
+            justify-content: space-evenly;
+            font-size: 1.2rem;
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px auto;
+        }
+
+        .conform input {
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+    }
+
+    @media(max-width:600px) {
+        .navbar ul li {
+            list-style: none;
+            margin: 0px -8px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navlogo {}
+
+        .navbar {
+            margin: 0px auto;
+
+        }
+
+        .inhome {
+            display: flex;
+            flex-direction: column;
+            width: 230px;
+            margin: 12px auto;
+        }
+
+        .container::before {
+            text-align: center;
+            position: absolute;
+            content: "";
+            background: url('Img/pizza-gd488cee82_1920.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 1274px;
+            height: 577px;
+            z-index: -1;
+            opacity: 0.9;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="navlogo">
+            <img src="Img/download.jpeg" alt="">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Order</li>
+                <li>About</li>
+                <li>Contack us</li>
+            </ul>
+        </div>
+    </div>
+    <section class="home">
+        <header class="inhome">
+            <h2 id="had">Welcome to My online Food Delever</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque iure provident dolorum iste placeat?
+                Blanditiis dolore nesciunt fuga alias iste quos ad nostrum, magnam facilis similique aperiam quidem? Hic
+                quasi asperiores temporibus nobis?</p>
+        </header>
+    </section>
+    <section class="mid">
+        <h2 id="hading">Our Services</h2>
+    </section>
+    <div class="table">
+        <div class="alltable" id="first">
+            <div class="imageall"><img src="Img/pizza pics.jpg" id="pizza" alt=""></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eius velit tempore maiores laudantium
+                cupiditate sed atque, itaque tempora excepturi ab provident.</p>
+        </div>
+        <div class="alltable" id="middle">
+            <div class="imageall"><img src="Img/breakfast-g6807d2b6e_1920.jpg" id="breakfast" alt=""></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur id animi error. Quam est modi quae.
+                Molestiae laboriosam laudantium accusantium est provident.</p>
+        </div>
+        <div class="alltable" id="last">
+            <div class="imageall"><img src="Img/food-delivery-g2d78bfb38_1280.png" id="delevery" alt=""></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minima, eos dolor quae vel
+                voluptatem. Illo libero laborum suscipit! Blanditiis, facere doloremque.</p>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom1">
+            <h2 id="h1">Our Clients</h2>
+        </div>
+
+        <div class="client">
+            <img src="Img/apple_logo_PNG19672.png" alt="" class="clientlogo">
+            <img src="Img/images.png" alt="" class="clientlogo">
+            <img src="Img/apple_logo_PNG19672.png" alt="" class="clientlogo">
+            <img src="Img/2560px-Skype_logo.svg.png" alt="" class="clientlogo">
+            <img src="Img/1200px-HP_logo_2012.svg.png" alt="" class="clientlogo">
+        </div>
+    </div>
+    <div class="con">
+        <h1 id="contacth1">Contact us</h1>
+    </div>
+    <div class="contact">
+        <div class="conform">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name">
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Enter your Email" id="email">
+            <label for="mobile">Mobile no. :</label>
+            <input type="phone" placeholder="Enter your mobile no." id="mobile">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
